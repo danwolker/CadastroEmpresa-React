@@ -1,0 +1,24 @@
+.formulario-empresa {
+    max-width: 100px;
+    margin: auto;
+}
+
+.campo-formulario {
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+}
+
+.campo-formulario label {
+    display: block; /* Faz o label aparecer acima do campo de input */
+    margin-bottom: 5px; /* Espaçamento entre o label e o campo de input */
+}
+
+.campo-formulario input {
+    width: 100%; /* Faz o input ocupar toda a largura do container */
+    padding: 8px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura do input */
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}

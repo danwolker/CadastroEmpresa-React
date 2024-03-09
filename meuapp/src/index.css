@@ -1,0 +1,13 @@
+body {
+    background-color: #f0ede6;
+    background-image: url('./fundo.png'); /* Ajuste o caminho conforme necessário */
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.App {
+    text-align: center;
+}
+
+/* Restante do seu CSS parece estar bem */
