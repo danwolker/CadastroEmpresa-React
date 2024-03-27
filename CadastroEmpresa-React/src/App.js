@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Navbar from './Navbar';
-import PaginaInicial from './PaginaInicial';
-import CadastroEmpresa from './CadastroEmpresa';
+import Navbar from './components/Navbar/Navbar';
+import PaginaInicial from './pages/home/HomePage';
+import CadastroEmpresa from './pages/RegisterCompany/RegisterCompany';
 
 function App() {
     return (

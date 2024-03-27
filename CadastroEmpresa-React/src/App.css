@@ -1,0 +1,109 @@
+:root {
+    /* Cores */
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --header-footer-background-color: #333;
+    --header-footer-text-color: #fff;
+    --button-background-color: #0779e4;
+    --button-hover-background-color: #0056b3;
+    --border-color: #0779e4;
+
+    /* Fonte */
+    --font-family: 'Arial', sans-serif;
+    --header-font-size: 16px;
+
+    /* Espaçamento */
+    --default-padding: 10px;
+    --header-padding-top: 30px;
+    --container-width: 80%;
+    --page-margin: auto;
+    --page-max-width: 800px;
+    --page-padding: 50px;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos */
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Estilo específico para a página inicial removido - Vamos assumir que isso será tratado em PaginaInicial.css */
+
+/* Alinhamento e espaçamento para o conteúdo principal */
+.container {
+    width: var(--container-width);
+    margin: var(--page-margin);
+    overflow: hidden;
+}
+
+/* Cabeçalho */
+header {
+    background: var(--header-footer-background-color);
+    color: var(--header-footer-text-color);
+    padding-top: var(--header-padding-top);
+    min-height: 70px;
+    border-bottom: 3px solid var(--border-color);
+}
+
+header a {
+    color: var(--header-footer-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--header-font-size);
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--default-padding) 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--header-footer-text-color);
+}
+
+/* Rodapé */
+footer {
+    background: var(--header-footer-background-color);
+    color: var(--header-footer-text-color);
+    text-align: center;
+    padding: var(--default-padding) 0;
+    margin-top: 40px;
+}
+
+/* Botões */
+.button {
+    display: inline-block;
+    background: var(--button-background-color);
+    color: var(--header-footer-text-color);
+    padding: var(--default-padding) 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background: var(--button-hover-background-color);
+}

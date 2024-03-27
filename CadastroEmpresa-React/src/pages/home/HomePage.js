@@ -1,9 +1,9 @@
 import React from 'react';
-import './PaginaInicial.css'; // Certifique-se de criar este arquivo de estilo
+import './HomePage.css'; // Certifique-se de que o caminho do arquivo CSS está correto
 
-function PaginaInicial() {
+function HomePage() {
     return (
-        <div className="pagina-inicial">
+        <div className="home-page">
             <h1>Bem-vindo ao Meu Laboratório Pessoal de ReactJS!</h1>
             <p>
                 Este site é o reflexo da minha dedicação ao aprendizado contínuo em desenvolvimento web, especificamente utilizando ReactJS.
@@ -25,4 +25,4 @@ function PaginaInicial() {
     );
 }
 
-export default PaginaInicial;
+export default HomePage;
