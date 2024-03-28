@@ -1,0 +1,26 @@
+:root {
+    --main-font-family: 'Arial', sans-serif;
+    --main-text-color: #333;
+    --main-padding: 50px;
+    --content-max-width: 800px;
+    --line-height-standard: 1.6;
+    --paragraph-margin-bottom: 35px;
+    --text-align-standard: justify;
+}
+
+.pagina-inicial {
+    max-width: var(--content-max-width);
+    margin: auto;
+    padding: var(--main-padding);
+    line-height: var(--line-height-standard);
+    font-family: var(--main-font-family);
+}
+
+.pagina-inicial h1 {
+    color: var(--main-text-color);
+}
+
+.pagina-inicial p {
+    text-align: var(--text-align-standard);
+    margin-bottom: var(--paragraph-margin-bottom);
+}

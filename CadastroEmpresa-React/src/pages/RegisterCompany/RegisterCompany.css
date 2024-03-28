@@ -1,0 +1,43 @@
+:root {
+    --form-max-width: 500px; /* Adjusted for a more standard form size */
+    --form-margin: auto;
+    --input-padding: 8px;
+    --input-margin: 20px 0;
+    --button-padding: 10px 20px;
+    --spacing-small: 5px;
+    --spacing-medium: 20px;
+}
+
+.register-company-form {
+    max-width: var(--form-max-width);
+    margin: var(--form-margin);
+}
+
+.form-field {
+    margin-bottom: var(--spacing-medium); /* Spacing between fields */
+}
+
+.form-field label {
+    display: block; /* Makes the label appear above the input field */
+    margin-bottom: var(--spacing-small); /* Spacing between the label and the input field */
+}
+
+.form-field input {
+    width: 100%; /* Makes the input occupy the full width of the container */
+    padding: var(--input-padding);
+    box-sizing: border-box; /* Ensures that padding does not increase the input's width */
+    margin-bottom: var(--input-margin); /* If necessary, add margin below each input */
+}
+
+.form-button { /* Reusable class for buttons within forms */
+    padding: var(--button-padding);
+    cursor: pointer;
+    background-color: #f0f0f0; /* Example background color for the button */
+    border: none; /* Removes the standard button border */
+    border-radius: 5px; /* Adds soft curves to the edges of the button */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+.form-button:hover {
+    background-color: #e0e0e0; /* Changes the background color when hovered over */
+}
